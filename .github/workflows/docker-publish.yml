@@ -10,7 +10,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: contrast-security-oss/integration-verify
+  IMAGE_NAME: ecdown/integration-verify
 
 jobs:
   build-and-push-image:
