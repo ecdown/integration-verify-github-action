@@ -25,7 +25,7 @@ class ContrastVerifyAction:
         job_start_time: Optional[int],
         severities: list[str],
         output_helper: Optional[OutputHelper] = None,
-        cert_file: Union[Path, bool, None] = None,
+        cert_file: Union[Path, str, bool, None] = None,
     ) -> None:
         self._app_id = app_id
         self._app_name = app_name
