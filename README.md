@@ -45,7 +45,7 @@ jobs:
       # - name: Run tests
       #
       - name: Contrast Verify
-        uses: Contrast-Security-OSS/integration-verify-github-action@main
+        uses: ecdown/integration-verify-github-action@main
         with:
           apiKey: ${{ secrets.CONTRAST_API_KEY }}
           orgId: <organization id>
