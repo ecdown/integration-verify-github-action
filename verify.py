@@ -90,8 +90,7 @@ def load_certs(output_helper: OutputHelper) -> Union[Path, bool, None]:
         return None
     # handle ignore Certs
     if certs_to_add.upper() == "FALSE":
-        return False
-
+        return "FALSE"
     import pathlib
 
     from certifi import where as default_certs_path
